@@ -5,23 +5,25 @@
 
 body{
     background-color: white;
+    margin: 0 0 40px;
 }
 
 header{
     background-color: rgb(232, 246, 243);
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     padding: 24px 0;
+    
 }
 
 .item-lista-cabeçalho{
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 55px;
     font-size: 25px;
 }
 .img-cabeçalho{
-    height: 200px;
+    height: 300px;
 }
 
 .principal{
@@ -30,22 +32,35 @@ header{
     justify-content: center;
     align-items: center;
 }
-
 .imagem-principal{
-    width: 500px;
+    width: 400px;
 }
 
 .div-principal{
-    width: 37%;
-    margin: 100px;
+    width: 35%;
+   margin: 100px;
 }
-    .paragrafo{
-        text-align: center;
-    }
-    .principal-titulo{
-        padding: 20px 0;
-    }
+.paragrafo{
+    text-align: justify;
+   
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
     
-    h2{
-        font-family: 'Grandiflora One', serif;
-    }
+}
+
+.missao{
+    width: 50%;
+   margin: 0 auto;
+   text-align: justify;
+}
+/*
+.div-redes-sociais{
+    text-align: center;
+    margin: 20px 0;
+}
+.redes-sociais{
+    width: 5%;
+}*/
